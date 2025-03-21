@@ -1,116 +1,236 @@
-head{
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+head {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-header{
-max-width: 1100px;
-margin: 1rem auto;
-margin-bottom: 4rem;
+
+header {
+  max-width: 1100px;
+  margin: 1rem auto;
+  margin-bottom: 4rem;
 }
-header h1{
-    
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: black;
-    text-align: center;
+
+.contenedor {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  margin-top: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  color: black;
+  font-size: 1.2em;
+
 }
+
+.contenedor-2 {
+  background: rgba(0, 0, 0, 0.295);
+  border-radius: 12px;
+  padding: 20px 40px;
+  text-align: center;
+  width: 100%;
+  margin: 50px auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 1.2em;
+}
+
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: black;
+  text-align: center;
+}
+
 header p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;;
-    color: black;
-    text-align: center;
-}
-main h2{
-    
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-main p{
-    
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  ;
+  color: black;
+  text-align: center;
 }
 
+main {
+  width: 1024px;
+  margin: auto;
+}
 
-body{
-   
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-align: center;
+main h2 {
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+main p {
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 
-   
-    
-  
-  
+body {
+
+  background-image: url('imagenes/edificio.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+footer {
+  width: 1024px;
+  margin: auto;
+}
+
+.flip-card p {
+  color: white;
+
+
+
+}
 
 .flip-card {
-    background-color: transparent;
-    width: 220px;
-    height: 274px;
-    perspective: 1000px;
-    font-family: "Poppins", sans-serif;
+
+  width: 220px;
+  height: 274px;
+  perspective: 1000px;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;
   cursor: pointer;
- 
-  }
-  
-  .title {
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: 0;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-   
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 1rem;
-  }
-  
-  .flip-card-front {
-    background: linear-gradient(to top, #bbc4ca 0%, #d9e2e7 100%);;
-    color: rgb(0, 0, 0);
-  }
-  
-  .flip-card-back {
-    background:linear-gradient(to top, #bbc4ca 0%, #d9e2e7 100%);;
-    color: rgb(0, 0, 0);
-    transform: rotateY(180deg);
-  }
-  
-  
-  
+  box-shadow: 7px;
+
+
+
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+
+  backface-visibility: hidden;
+
+
+}
+
+.flip-card-front {
+
+
+  color: rgb(0, 0, 0);
+}
+
+.flip-card-back {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  transform: rotateY(180deg);
+}
+
+.videoclub {
+  background-image: url(imagenes/videoclub.jpg);
+
+}
+
+.porteria {
+  background-image: url(imagenes/porteria.jpg);
+}
+
+.casa {
+  background-image: url(imagenes/juancuesta.jpg);
+}
+
+.radiopatio {
+  background-image: url(imagenes/radiopatio.jpg);
+}
+
+#quiz-container {
+  width: 50%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+#next-btn {
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
